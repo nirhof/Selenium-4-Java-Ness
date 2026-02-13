@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Environment>
+    <!-- Timeout -->
+    <Timeout>10</Timeout>
+
+    <!-- General -->
+<!--    <PlatformName>web</PlatformName>-->
+
+    <!-- Web -->
+    <BrowserName>chrome</BrowserName>
+    <url>https://www.ness-tech.co.il/</url>
+
+
+
+
+
+    <!-- Image ImageRepository directory path -->
+    <ImageRepo>C:\\Automation\\Projects\\Selenium4JavaNess\\Images\\</ImageRepo>
+
+    <!-- Data Driven Testing -->
+    <SearchKeywordDataFile>./DDTFiles/products.csv</SearchKeywordDataFile>
+    <SpecificProductDataFile>./DDTFiles/specificProductsSearchKey.csv</SpecificProductDataFile>
+
+
+    <!-- Database - Connection details-->
+    <DBURL>jdbc:mysql://sql11.freemysqlhosting.net:3306/sql11648865</DBURL>
+    <DBUserName>sql11648865</DBUserName>
+    <DBPassword>eCiFYnzs7e</DBPassword>
+
+
+    <!-- Plugin Path -->
+    <PluginPath>C:/Users/Yosi/Desktop/CV/selenium_ide-3.17.4.xpi</PluginPath>
+
+</Environment>
